@@ -14,6 +14,7 @@
 
     * Tinker with smaller kernel sizes (27 seems like it'd be a lot)
     * Pooling layers are a relic of the past, better to use convolution layers with modified strides such that the condensation method of the feature-maps is also a learnable parameter.
+    * Batch Normalization and kernel initializers for properly creating weights and avoiding covariate shift.
 
   * BiLSTM
 
