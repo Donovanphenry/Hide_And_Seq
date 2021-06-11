@@ -13,6 +13,8 @@
   * CNN
 
     * Tinker with smaller kernel sizes (27 seems like it'd be a lot)
+      * see what previous researchers have used when convolving 1D nucleotide data
+      * While using smaller kernel sizes, try increasing depth for each parallel cnn layer (better feature extraction)
     * Pooling layers are a relic of the past, better to use convolution layers with modified strides such that the condensation method of the feature-maps is also a learnable parameter.
     * Batch Normalization and kernel initializers for properly creating weights and avoiding covariate shift.
 
@@ -48,5 +50,5 @@
     p_j \space s.t. \space Pr(p_j) \geq Pr(p_k) \space \forall j,k
     $$
 
-* 
+  
 
