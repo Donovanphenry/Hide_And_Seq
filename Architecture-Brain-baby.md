@@ -50,5 +50,9 @@
     p_j \space s.t. \space Pr(p_j) \geq Pr(p_k) \space \forall j,k
     $$
 
-  
 
+# Model architectures 
+
+* considering: https://www.mdpi.com/2073-4425/11/12/1529/htm (which reviews DeePromoter and other similar nucleotide sequence analysis using DL)
+
+* Additionally, DeePromoter's "tuned hyper-parameters are the number of convolution layers, kernel size, number of filters in each layer, the size of the max pooling layer, dropout probability, and the units of Bi-LSTM layer" (section 2.3: the proposed models).
