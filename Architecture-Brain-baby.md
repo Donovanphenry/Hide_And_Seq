@@ -56,3 +56,12 @@
 * considering: https://www.mdpi.com/2073-4425/11/12/1529/htm (which reviews DeePromoter and other similar nucleotide sequence analysis using DL)
 
 * Additionally, DeePromoter's "tuned hyper-parameters are the number of convolution layers, kernel size, number of filters in each layer, the size of the max pooling layer, dropout probability, and the units of Bi-LSTM layer" (section 2.3: the proposed models).
+  * at the very least, we should mention all of these hyper-parameters
+  * Additionally, loss fn, optimizer and its hyper parameters (lr, momentum, etc. )
+  * Some way to summarize the model architecture would be useful as well (we've already diviated from deepromoter's output layer of a single perceptron,  to 2 with softmax)
+
+| Name | loss/acc | val_loss/val_acc | # conv layers | kernel size | # filters/layer | max pool size | Loss fn | opt  and hyper params |
+| ---- | -------- | ---------------- | ------------- | ----------- | --------------- | ------------- | ------- | --------------------- |
+|      |          |                  |               |             |                 |               |         |                       |
+|      |          |                  |               |             |                 |               |         |                       |
+|      |          |                  |               |             |                 |               |         |                       |
